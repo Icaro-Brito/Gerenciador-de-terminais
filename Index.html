@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerenciador de terminais</title>
+</head>
+
+
+
+<body>
+
+    <header class="topo">
+        <h1>Gerenciador de terminais</h1>
+
+        <button id="btnTema" class="btn-tema">🌙</button>
+
+    </header>
+
+
+    <input type="file" id="arquivoCSV" accept=".csv, .txt">
+
+    <div class="bloco">
+
+        <h2>Numero do terminal:</h2>
+        <textarea id="listaTerminais"></textarea>
+
+        <div class="acoes-esquerda">
+            <button id="btnCopiarTerminais">Copiar terminais</button>
+            <p class="msg-erro" id="msgTerminais">Nenhum dado para copiar</p>
+        </div><!--terminais botão a esquerda-->
+    </div>
+
+    <div class="bloco">
+        <h2>Serial Number:</h2>
+        <textarea id="listaSeriais"></textarea>
+
+        <div class="acoes-esquerda">
+            <button id="btnCopiarSeriais">Copiar serial Number</button>
+            <p class="msg-erro" id="msgSeriais">Nenhum dado para copiar</p>
+        </div><!--seriais botão a esquerda-->
+    </div>
+
+    <div class="acoes-centro">
+        <button id="btnLimpar" class="btn-limpar">Limpar</button>
+    </div><!--Limpar botão centralizado-->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
