@@ -10,7 +10,6 @@ Projeto focado em praticar JavaScript puro, manipulação de arquivos e boas pr�
 - Extração de:
   - Número do terminal
   - Serial Number
-- Remoção de caracteres não numéricos
 - Botões de copiar com animação visual
 - Mensagem animada quando não há dados para copiar
 - Tema claro e escuro
