@@ -1,4 +1,4 @@
-# Gerenciador de Terminais
+# 📊 Gerenciador de Terminais
 
 Aplicação web desenvolvida para facilitar a leitura de arquivos CSV ou TXT, extraindo números de terminais e serial numbers de forma rápida e organizada.
 
@@ -31,10 +31,10 @@ Projeto focado em praticar JavaScript puro, manipulação de arquivos e boas pr�
 4. Altere o tema conforme preferência
 
 ## 📌 Objetivo do projeto
-Projeto desenvolvido com fins educacionais e inspirado em um sistema de gestão utilizado no setor em que atuo profissionalmente.
+Projeto desenvolvido com fins educacionais e inspirado em um fluxo real de um sistema de getão utilizado no ambiente corporativo.
 
 A aplicação busca resolver uma necessidade real do dia a dia, automatizando a extração de números de terminais e serial numbers a partir de arquivos CSV ou TXT, reduzindo erros manuais e otimizando o tempo de análise.
 
-## 👨‍💻 Autor
-Ícaro Brito 
-GitHub: https://github.com/Icaro-Brito
+## 👨‍💻 Autor  
+Ícaro Brito  
+🔗 GitHub: https://github.com/Icaro-Brito
