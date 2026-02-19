@@ -57,9 +57,15 @@ function copiarSomenteNumeros(id) {
     }
     msgErro.classList.remove("ativo");
 
-    const somenteNumeros = campo.value.replace(/[^0-9, ]/g, "");
-    navigator.clipboard.writeText(somenteNumeros);
+    let textoParaCopiar;
 
+    if (id === "listaterminais") {
+        textoParaCopiar = campo.value.replace(/[^0-9, ]/g, "");
+    } else {
+        textoParaCopiar = campo.value.replace(/[^a-zA-Z0-9, -]/g, "");
+    }
+
+    navigator.clipboard.writeText(textoParaCopiar);
     return true;
 }
 
